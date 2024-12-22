@@ -1,8 +1,23 @@
-# 🚲 Blog API
+# 🚲 SnapVerse Blog API
 
 A TypeScript Node.js MongoDB with Mongoose and Express.js-based API designed to manage a blog. The API enables users to create blog, update blog and Delete Blog.
 
+## Website Features
 
+- User Can Search blogs by title or content
+- User can Sort blogs by specific fields such as createdAt or title
+- User can Defines the sorting order. Accepts values asc (ascending) or desc (descending).
+- User can Filter blogs by author ID .
+
+## [ Live Site URL](https://smart-shop-ca369.web.app/)
+
+## Usages Technologies
+
+- TypeScript
+- Node JS
+- Express JS
+- MongoDB
+- Mongoose
 
 ## 🛠️ Installation and Setup
 
