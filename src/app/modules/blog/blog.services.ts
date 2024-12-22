@@ -89,16 +89,16 @@ const getAllblogFromDB = async (query: Record<string, unknown>) => {
     sortBy = filterQuery.sort(query?.sortBy as string);
   }
 
-  const sortOrder = sortBy;
+  // const sortOrder = sortBy;
 
   let querySortOrder: SortOrder = 1;
   if (query?.sortOrder === 'desc') {
     querySortOrder = -1;
   }
-  const blogs = sortOrder
+  const blogs = await sortBy
     .sort({ createdAt: querySortOrder })
     .populate('author');
-  return await blogs;
+  return blogs;
 };
 
 /**
