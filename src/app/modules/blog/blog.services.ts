@@ -95,7 +95,9 @@ const getAllblogFromDB = async (query: Record<string, unknown>) => {
   if (query?.sortOrder === 'desc') {
     querySortOrder = -1;
   }
-  const blogs = sortOrder.sort({ createdAt: querySortOrder });
+  const blogs = sortOrder
+    .sort({ createdAt: querySortOrder })
+    .populate('author');
   return await blogs;
 };
 
