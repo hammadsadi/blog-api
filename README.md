@@ -9,7 +9,7 @@ A TypeScript Node.js MongoDB with Mongoose and Express.js-based API designed to 
 - User can Defines the sorting order. Accepts values asc (ascending) or desc (descending).
 - User can Filter blogs by author ID .
 
-## [ Live Site URL](https://smart-shop-ca369.web.app/)
+## [ Live Site URL](https://snap-verse-cyan.vercel.app/)
 
 ## Usages Technologies
 
