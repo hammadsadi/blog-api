@@ -1,4 +1,4 @@
-# 🚲 SnapVerse Blog API
+# 🔰 SnapVerse Blog API
 
 A TypeScript Node.js MongoDB with Mongoose and Express.js-based API designed to manage a blog. The API enables users to create blog, update blog and Delete Blog.
 
